@@ -1,0 +1,6 @@
+{
+  "name": "SpendWise",
+  "description": "Spend smarter. Plan better. Stay in control. A 30-day budget management and financial decision simulator for Gen Z.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

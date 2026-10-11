@@ -35,8 +35,6 @@ Users can review the outcome before confirming the decision, helping them make m
 
 ## 🛠️ Tech Stack
 
-Update this section to match the technologies actually used in your project.
-
 - **Frontend:** React, TypeScript, Vite
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
@@ -71,10 +69,8 @@ Update this section to match the technologies actually used in your project.
 
 **1. Clone the repository**
 
-Replace `YOUR-GITHUB-USERNAME` with your GitHub username.
-
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/spendwise-finance.git
+git clone https://github.com/harini-n-06/spendwise-finance.git
 ```
 
 **2. Navigate to the project directory**
@@ -99,12 +95,10 @@ npm run dev
 
 Visit the URL displayed in your terminal, usually `http://localhost:5173`.
 
-*These instructions assume your project uses React, Vite, and npm.*
-
 ## 🌐 Live Demo
 
-- **Live Application:** Add your deployed application URL here.
-- **GitHub Repository:** Add your repository URL here.
+- Live Application:https://spend-wise-finance-cyan.vercel.app/
+- GitHub Repository:https://github.com/harini-n-06/SpendWise-finance.git
 
 ## 🔒 Privacy & Data
 

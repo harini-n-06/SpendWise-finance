@@ -70,7 +70,7 @@ Users can review the outcome before confirming the decision, helping them make m
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/harini-n-06/spendwise-finance.git
+git@github.com:harini-n-06/SpendWise-finance.git
 ```
 
 **2. Navigate to the project directory**
@@ -128,5 +128,46 @@ SpendWise is an educational budgeting and financial simulation project. Its fore
 A web development hackathon project focused on financial awareness, smarter spending, and informed decision-making.
 
 ---
+**prompt**
+Build **SpendWise**, a professional, fully functional, responsive personal finance web application for Gen Z.
 
+**Goal:** Help users manage ₹10,000 over 30 days, make smarter financial decisions, and understand how spending affects their future balance.
+
+**Tech stack:** React, TypeScript, Vite, Tailwind CSS, Lucide React, Recharts, and localStorage. Use reusable components, clean code, and shared financial state. No paid APIs or backend required.
+
+**Design:** Create a premium fintech UI with midnight navy (#101827), white cards, lime green (#B8F36B) accents, clean typography, subtle shadows, rounded cards, consistent spacing, and responsive desktop/mobile layouts. Use a dark sidebar on desktop and compact navigation on mobile. Avoid clutter and generic dashboard styling.
+
+**Pages and features:**
+
+1. **Dashboard:** Starting budget, current balance, actual spending, unpaid commitments, savings progress, days remaining, safe daily allowance, spending breakdown chart, 30-day forecast chart, recent transactions, upcoming bills, financial health score, and actionable insights.
+
+2. **Transactions:** Add, edit, delete, search, filter, and categorize income and expenses. Validate forms and update all related metrics immediately.
+
+3. **Budget Planner:** Set category limits, compare planned versus actual spending, display remaining budgets, and warn about overspending.
+
+4. **Decision Simulator — signature feature:** Let users simulate purchases, unexpected expenses, subscriptions, additional income, savings contributions, and commitment changes. Show before-and-after comparisons for balance, daily allowance, month-end forecast, savings goals, and financial risk. Update results instantly when the amount changes. Include Confirm and Cancel. Preview and Cancel must never change saved data; Confirm must apply the decision exactly once.
+
+5. **Savings Goals:** Create, edit, delete, and contribute to goals. Display target amount, saved amount, progress, remaining amount, target date, and estimated feasibility.
+
+6. **Commitments & Subscriptions:** Add and manage upcoming bills, recurring subscriptions, due dates, payment status, and cancellation. Account for future recurring expenses correctly and never double-count paid bills.
+
+7. **Insights & Forecast:** Show projected month-end balance, spending trends, stable/caution/high-risk status, scenario comparisons, and a transparent illustrative financial health score. Explain every recommendation using actual data. Do not present the score as a credit score.
+
+**Initial demo data:** ₹10,000 starting budget, 30-day period, ₹2,800 total recorded expenses, ₹7,200 current balance, ₹1,200 unpaid commitments, ₹2,000 savings target, and 18 days remaining. Ensure every value and transaction is internally consistent.
+
+**Calculation rules:**
+- Balance = opening balance + recorded income − recorded expenses.
+- Safe daily allowance = max(0, balance − unpaid commitments − remaining savings requirement) / days remaining.
+- Forecast = current balance + expected future income − expected future expenses − unpaid commitments.
+- Prevent double-counting of subscriptions, paid commitments, and savings contributions. Handle zero days and negative forecasts safely.
+
+**Functionality:** Use centralized TypeScript calculation functions and a single source of truth. Persist transactions, budgets, goals, commitments, subscriptions, and settings in localStorage. Provide a Reset Demo button with confirmation. Every button, form, navigation item, chart, and simulator action must work. Include validation, notifications, confirmation dialogs, empty states, accessible labels, keyboard navigation, and clear error messages.
+
+**Quality requirements:** No static-only mockups, dead buttons, fake data changes, hardcoded simulator results, fake bank connections, or unnecessary features. All dashboard metrics, charts, forecasts, and insights must update after confirmed actions. Ensure responsive design, consistent rupee formatting, and no major runtime or TypeScript errors.
+
+**Build priority:** First implement the shared state, calculation engine, dashboard, and working decision simulator. Then build transactions, budgets, savings, subscriptions, and forecasts. Finish with responsive polish and testing.
+
+Build the actual application now, not just a plan. Verify calculations, preview/cancel/confirm behavior, persistence after refresh, Reset Demo, and mobile responsiveness. Prioritize a polished, reliable, hackathon-ready product over extra features.
+
+Tagline: “Spend smarter. Plan better. Stay in control.”
 **SpendWise — Make every rupee count.**
